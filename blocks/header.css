@@ -12,3 +12,12 @@
 .header__title {
   font-size: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-bottom: 90px;
+  }
+  .header__logo {
+    height: 30px;
+  }
+}

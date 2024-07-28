@@ -24,3 +24,18 @@
   filter: grayscale(1);
   margin-bottom: 92px;
 }
+
+@media screen and (max-width: 768px) {
+  .principal-section__title {
+    font-size: calc(6rem - 21px);
+    line-height: 79px;
+    max-width: 530px;
+    margin-bottom: 25px;
+  }
+  .principal-section__subtitle {
+    margin-bottom: 30px;
+  }
+  .principal-section__image {
+    margin-bottom: 90px;
+  }
+}
