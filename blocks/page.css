@@ -1,0 +1,14 @@
+p,
+h1,
+h2,
+h3 {
+  font-family: "Inter";
+  color: white;
+  margin: 0;
+}
+.page {
+  min-height: 2008px;
+  min-width: 1280px;
+  background-color: #2a2c2f;
+  padding: 34px 148px 24px;
+}

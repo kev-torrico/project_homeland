@@ -1,0 +1,29 @@
+.description {
+  padding-right: 154px;
+  max-width: 830px;
+}
+.description__title {
+  font-family: "Inter black";
+  font-size: 54px;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+.description__paragraph {
+  max-width: 738px;
+  line-height: 34px;
+  max-width: 738px;
+}
+.description__paragraph_size_normal {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.description__author {
+  font-size: 24px;
+  text-align: end;
+  margin-bottom: 40px;
+}
+.description__paragraph_size_small {
+  font-size: 16px;
+  margin-bottom: 92px;
+}
