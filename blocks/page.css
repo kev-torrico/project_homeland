@@ -16,14 +16,14 @@ h3 {
 @media screen and (max-width: 768px) {
   .page {
     padding: 30px 0 24px;
-    max-height: 1742px;
+    max-height: 100%;
     max-width: 100%;
   }
 }
 @media screen and (max-width: 320px) {
   .page {
     padding: 20px 0 24px;
-    max-height: 1705px;
+    max-height: 100%;
     max-width: 100%;
   }
 }
