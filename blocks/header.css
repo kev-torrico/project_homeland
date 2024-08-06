@@ -13,7 +13,7 @@
   font-size: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .header {
     margin-bottom: 90px;
   }
@@ -21,7 +21,7 @@
     height: 30px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .header {
     margin-bottom: 50px;
   }
