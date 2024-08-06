@@ -39,14 +39,14 @@
     margin-bottom: 50px;
   }
   .description__paragraph_size_normal {
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
   .description__author {
     margin-bottom: 32px;
   }
   .description__paragraph_size_small {
     line-height: 163%;
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 544px) {
@@ -60,7 +60,7 @@
     line-height: 35px;
   }
   .description__paragraph_size_normal {
-    margin-bottom: 10;
+    margin-bottom: 10px;
     line-height: 30px;
   }
   .description__author {
