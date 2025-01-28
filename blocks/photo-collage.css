@@ -1,0 +1,12 @@
+.photo-collage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+  padding: 0 53px 92px 43px;
+}
+.photo-collage__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

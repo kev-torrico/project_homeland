@@ -1,5 +1,5 @@
 .description {
-  padding-right: 154px;
+  padding: 0 302px 0 148px;
   max-width: 830px;
 }
 .description__title {
@@ -25,7 +25,7 @@
 }
 .description__paragraph_size_small {
   font-size: 16px;
-  margin-bottom: 92px;
+  margin-bottom: 118px;
 }
 @media screen and (max-width: 1024px) {
   .description {
