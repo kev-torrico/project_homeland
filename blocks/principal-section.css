@@ -2,23 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 148px;
+  text-align: center;
 }
 .principal-section__title {
-  font-family: "Inter black";
-  font-size: 6rem;
+  font-family: "Inter Black";
+  font-size: 96px;
   line-height: 100px;
-  text-align: center;
   max-width: 720px;
   margin-bottom: 32px;
 }
+
 .principal-section__subtitle {
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
   max-width: 720px;
   margin-bottom: 64px;
 }
+
 .principal-section__image {
   object-fit: contain;
   width: 100%;
@@ -28,30 +28,35 @@
 
 @media screen and (max-width: 1024px) {
   .principal-section__title {
-    font-size: calc(6rem - 21px);
+    font-size: 75px;
     line-height: 79px;
-    max-width: 530px;
+    max-width: 100%;
     margin-bottom: 25px;
   }
+
   .principal-section__subtitle {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 30px;
   }
+
   .principal-section__image {
     margin-bottom: 90px;
   }
 }
+
 @media screen and (max-width: 544px) {
   .principal-section__title {
-    font-size: calc(6rem - 56px);
+    font-size: 40px;
     line-height: 44px;
-    max-width: 228px;
+    max-width: min(100%, 228px);
     margin-bottom: 16px;
   }
+
   .principal-section__subtitle {
     margin-bottom: 40px;
   }
+
   .principal-section__image {
     margin-bottom: 64px;
   }

@@ -3,10 +3,31 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 16px;
-  padding: 0 53px 92px 43px;
+  padding: 0 53px 0px 43px;
 }
 .photo-collage__image {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
+}
+@media screen and (max-width: 1184px) {
+  .photo-collage {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+    justify-content: center;
+    padding: 0 24px;
+  }
+  .photo-collage__image {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .photo-collage {
+    grid-template-columns: 280px;
+    grid-template-rows: repeat(8, 216px);
+    gap: 12px;
+    padding: 38px 0px 0px;
+    justify-content: center;
+  }
 }
