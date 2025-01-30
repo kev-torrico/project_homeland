@@ -38,17 +38,15 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.place__image-button {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-}
 .place__image {
   grid-area: image;
   width: 100%;
   height: 460px;
   object-fit: cover;
   box-shadow: 10px 10px 25px 0px #00000080;
+}
+.place__image:hover {
+  filter: brightness(70%);
 }
 .place__button {
   grid-area: button;
